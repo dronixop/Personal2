@@ -25,7 +25,7 @@ function startSlideshow() {
   slideIndex++;
   if (slideIndex >= slides.length) slideIndex = 0;
 
-  setTimeout(startSlideshow, 2000); // 2 sec per slide
+  setTimeout(startSlideshow, 3000); // 3sec per slide
 }
 
 // Floating hearts
@@ -54,3 +54,4 @@ function typeLoveText(text) {
   }
   typing();
 }
+
